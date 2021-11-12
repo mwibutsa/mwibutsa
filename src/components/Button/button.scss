@@ -1,0 +1,22 @@
+@import "../../assets/styles/colors";
+.btn {
+  padding: 1.2rem 1rem;
+  text-transform: uppercase;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  font-size: 1.8rem;
+  transition: all ease-in-out 0.4s;
+
+  &--primary {
+    background-color: $color-secondary;
+    color: $color-primary-accent;
+
+    &:hover,
+    &:active {
+      background-color: darken($color-secondary, 5);
+      cursor: pointer;
+    }
+  }
+}
