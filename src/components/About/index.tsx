@@ -23,7 +23,7 @@ const About = () => {
             React-native, and UI/UX design.
           </p>
           <Button className="btn--primary btn--big" onClick={() => {}}>
-            Hire me
+            Get my cv
           </Button>
         </div>
         <div className={classes.imageContent}>

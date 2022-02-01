@@ -1,0 +1,77 @@
+@import "../../assets/styles/mixins";
+.WorkExperience {
+  background-color: var(--color-bg-2);
+  .WorkExperienceContent {
+    display: flex;
+    flex-direction: column;
+
+    @include mobile {
+      text-align: center !important;
+    }
+  }
+  .content {
+    align-self: center;
+    justify-self: center;
+
+    .job {
+      &Card {
+        display: flex;
+        margin-top: 2rem;
+        &:not(:first-child) {
+          margin: 10rem 0;
+        }
+        flex-wrap: wrap;
+      }
+      &Duration {
+        min-width: 50rem;
+        color: var(--color-text-accent);
+        font-size: 3.2rem;
+
+        @include tablet-mobile {
+          font-size: 2.8rem;
+        }
+
+        @include mobile {
+          font-size: 2rem;
+          width: 100%;
+          min-width: unset;
+          text-align: center;
+        }
+      }
+
+      &Content {
+        margin-left: 2rem;
+        @include mobile {
+          margin-left: unset;
+          text-align: center;
+        }
+      }
+
+      &Description {
+        max-width: 70rem;
+
+        @include tablet-mobile {
+          max-width: unset;
+          line-height: 2;
+        }
+      }
+
+      &Title {
+        color: var(--color-text-grey);
+        font-family: "Montaga", sans-serif;
+        font-size: 2.4rem;
+        font-weight: normal;
+      }
+
+      &Company {
+        @include tablet-mobile {
+          font-size: 2.8rem;
+        }
+
+        @include mobile {
+          font-size: 2.8rem;
+        }
+      }
+    }
+  }
+}

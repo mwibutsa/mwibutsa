@@ -1,16 +1,86 @@
+@import "../../assets/styles/mixins";
+
 .WhatIDo {
+  @include tablet-mobile {
+    h1 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .textContent {
+    @include tablet-mobile {
+      margin-top: 5rem;
+    }
+
+    p {
+      max-width: 50rem;
+      line-height: 2;
+
+      @include tablet-mobile {
+        max-width: unset;
+        text-align: center;
+      }
+    }
+  }
   .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+
+    @include tablet-mobile {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+      grid-gap: 5rem;
+    }
+
+    @include mobile {
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
 
     & > * {
-      border: 1px solid red;
       flex: 1;
 
       &:not(:last-child) {
         margin-right: 10rem;
       }
+    }
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 3rem;
+    margin-top: 2rem;
+
+    @include tablet-mobile {
+      width: 100%;
+    }
+  }
+
+  .card {
+    padding: 1rem 2rem;
+    height: 25rem;
+    border-radius: 0.4rem;
+    background-color: #c4c4c4;
+    text-align: center;
+
+    &:not(:first-child) {
+      padding-top: 2.5rem;
+    }
+
+    @include mobile {
+      border-radius: 0;
+    }
+
+    &Title {
+      color: var(--color-text-dark);
+      font-size: 2.4rem;
+    }
+
+    &Description {
+      color: var(--color-text-dark);
+      text-align: center;
+      margin-top: 1rem;
     }
   }
 }

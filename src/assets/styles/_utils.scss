@@ -9,8 +9,9 @@
   }
 
   @include mobile-l {
-    max-width: 98%;
-    padding: unset !important;
+    max-width: 100%;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
   }
 }
 
@@ -783,6 +784,11 @@ body {
       padding-bottom: 1rem;
       margin-bottom: 1rem;
       font-size: 3.2rem;
+
+      @include mobile {
+        margin-left: auto;
+        margin-right: auto;
+      }
       &::after {
         content: "";
         position: absolute;
