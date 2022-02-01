@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Recursive", sans-serif;
+  font-style: "italic";
+  font-weight: normal;
+  line-height: 22px;
+  color: #fff;
+  background-color: $color-primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Monomaniac One;
+  font-style: normal;
+  font-weight: normal;
+}

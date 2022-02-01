@@ -1,0 +1,16 @@
+.WhatIDo {
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & > * {
+      border: 1px solid red;
+      flex: 1;
+
+      &:not(:last-child) {
+        margin-right: 10rem;
+      }
+    }
+  }
+}

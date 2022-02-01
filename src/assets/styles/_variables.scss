@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #39375b;
+  --color-secondary: #745c97;
+  --color-tertiary: #2f2e4d;
+  --color-primary-accent: #fff;
+  --color-grey-primary: #c4bbb8;
+}
+
+$color-primary: var(--color-grey-primary);
+$color-secondary: var(--color-primary);
+$color-tertiary: var(--color-tertiary);
+$color-primary-accent: var(--color-primary-accent);
+$color-grey-primary: var(--color-grey-primary);
