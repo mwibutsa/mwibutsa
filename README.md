@@ -80,7 +80,7 @@ I am naturally a good team player with both remote and onsite experience.
 
 ## REFERENCES. 
 
-   Available upon request
+   > Available upon request
 
 ## CERTIFICATIONS  
 
@@ -92,7 +92,7 @@ I am naturally a good team player with both remote and onsite experience.
   - [LinkedIn](https://www.linkedin.com/in/mwibutsa/)
   - [Github](https://github.com/mwibutsa)
   - [Stack Overflow](https://stackoverflow.com/users/11440526/mwibutsa-floribert)
-  - [CV File]()
+  - [CV File](https://docs.google.com/document/d/1sSjm0xRdvn_36mjuSyo1DIN2B5uHLwxetJVB_jDZw0s/edit?usp=sharing)
 
 
 
