@@ -1,0 +1,104 @@
+@import "../../assets/styles/mixins";
+.EducationalBackground {
+  background-color: var(--color-tertiary);
+
+  &Inner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    align-self: center;
+    justify-self: center;
+
+    width: 85%;
+    @include tablet-mobile {
+      align-self: unset;
+      width: unset;
+    }
+
+    .education {
+      &Card {
+        display: flex;
+        margin-top: 2rem;
+        margin: 0 auto;
+        justify-content: space-between;
+
+        &:not(:first-child) {
+          margin: 10rem 0;
+        }
+        flex-wrap: wrap;
+
+        @include mobile {
+          flex-direction: column;
+        }
+      }
+
+      &Degree {
+        text-align: center;
+        margin-top: 2rem;
+
+        @include tablet-mobile {
+          text-align: left;
+          margin-left: 2rem;
+        }
+
+        @include mobile {
+          text-align: center;
+          margin-left: unset;
+        }
+      }
+
+      &Duration {
+        color: var(--color-text-accent);
+        font-size: 3.2rem;
+
+        @include tablet-mobile {
+          font-size: 2.8rem;
+        }
+
+        @include mobile {
+          font-size: 2rem;
+          width: 100%;
+          min-width: unset;
+          text-align: center;
+        }
+      }
+
+      &Content {
+        margin-left: 2rem;
+
+        @include mobile {
+          margin-left: unset;
+          text-align: center;
+        }
+      }
+
+      &Description {
+        max-width: 70rem;
+
+        @include tablet-mobile {
+          max-width: unset;
+          line-height: 2;
+        }
+      }
+
+      &Title {
+        color: var(--color-text-grey);
+        font-family: "Montaga", sans-serif;
+        font-size: 2.4rem;
+        font-weight: normal;
+      }
+
+      &Institution {
+        @include tablet-mobile {
+          font-size: 2.8rem;
+        }
+
+        @include mobile {
+          font-size: 2.8rem;
+        }
+      }
+    }
+  }
+}
