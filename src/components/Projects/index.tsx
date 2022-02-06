@@ -60,7 +60,12 @@ const Projects = () => {
                 or a typeface without
               </p>
 
-              <a href="#." className={cs(classes.projectLink)}>
+              <a
+                href="https://sparxsstudio.com/indiesparxs"
+                target="_blank"
+                className={cs(classes.projectLink)}
+                rel="noreferrer"
+              >
                 <img src={LinkArrow} alt="" /> Visit project
               </a>
             </div>

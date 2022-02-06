@@ -1,31 +1,55 @@
 @import "../../assets/styles/mixins";
-.WorkExperience {
-  background-color: var(--color-bg-2);
+.EducationalBackground {
+  background-color: var(--color-tertiary);
 
-  .WorkExperienceContent {
+  &Inner {
     display: flex;
     flex-direction: column;
-
-    @include mobile {
-      text-align: center !important;
-    }
   }
 
   .content {
     align-self: center;
     justify-self: center;
 
-    .job {
+    width: 85%;
+    @include tablet-mobile {
+      align-self: unset;
+      width: unset;
+    }
+
+    .education {
       &Card {
         display: flex;
         margin-top: 2rem;
+        margin: 0 auto;
+        justify-content: space-between;
+
         &:not(:first-child) {
           margin: 10rem 0;
         }
         flex-wrap: wrap;
+
+        @include mobile {
+          flex-direction: column;
+        }
       }
+
+      &Degree {
+        text-align: center;
+        margin-top: 2rem;
+
+        @include tablet-mobile {
+          text-align: left;
+          margin-left: 2rem;
+        }
+
+        @include mobile {
+          text-align: center;
+          margin-left: unset;
+        }
+      }
+
       &Duration {
-        min-width: 50rem;
         color: var(--color-text-accent);
         font-size: 3.2rem;
 
@@ -43,6 +67,7 @@
 
       &Content {
         margin-left: 2rem;
+
         @include mobile {
           margin-left: unset;
           text-align: center;
@@ -65,7 +90,7 @@
         font-weight: normal;
       }
 
-      &Company {
+      &Institution {
         @include tablet-mobile {
           font-size: 2.8rem;
         }
