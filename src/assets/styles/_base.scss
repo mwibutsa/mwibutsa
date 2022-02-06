@@ -61,3 +61,22 @@ h6,
 .title6 {
   font-size: 1.2rem;
 }
+
+a,
+:visited,
+a:link {
+  color: var(--color-link);
+  text-decoration: none;
+  display: inline-flex;
+  transition: all ease-in-out 0.3s;
+
+  img {
+    margin-right: 1rem;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: $color-link;
+    color: lighten($color: $color-link, $amount: 10);
+  }
+}
