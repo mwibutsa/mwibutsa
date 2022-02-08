@@ -1,6 +1,6 @@
 import ProfilePic from "assets/images/Profile.png";
 import cs from "classnames";
-import Button from "components/Button";
+import Button from "components/common/Button";
 import React from "react";
 import classes from "./about.module.scss";
 const About = () => {

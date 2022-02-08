@@ -13,11 +13,8 @@
     }
 
     p {
-      max-width: 50rem;
       line-height: 2;
-
       @include tablet-mobile {
-        max-width: unset;
         text-align: center;
       }
     }

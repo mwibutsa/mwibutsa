@@ -2,18 +2,9 @@
 .EducationalBackground {
   background-color: var(--color-tertiary);
 
-  &Inner {
-    display: flex;
-    flex-direction: column;
-  }
-
   .content {
-    align-self: center;
-    justify-self: center;
-
     width: 85%;
     @include tablet-mobile {
-      align-self: unset;
       width: unset;
     }
 

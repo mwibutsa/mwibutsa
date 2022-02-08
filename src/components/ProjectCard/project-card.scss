@@ -1,0 +1,36 @@
+.project-card {
+  background: linear-gradient(
+    150deg,
+    var(--color-primary),
+    var(--color-tertiary)
+  );
+
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  border: 1px solid var(--color-secondary);
+
+  &__description {
+    line-height: 1.7;
+    margin: 20px 0 10px;
+  }
+
+  &__stacks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+  }
+  &__stack {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    display: inline-block;
+    font-weight: 100;
+    padding: 5px;
+    color: #777;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+}
