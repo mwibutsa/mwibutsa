@@ -1,15 +1,19 @@
 @import "../../assets/styles/mixins";
 
 .About {
-  background-color: var(--color-tertiary);
+  background: linear-gradient(
+    180deg,
+    var(--color-tertiary),
+    var(--color-secondary),
+    var(--color-primary)
+  );
   .content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
 
     @include mobile-l {
-      flex-direction: column-reverse;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
@@ -23,7 +27,7 @@
   }
 
   .professionalSummary {
-    max-width: 50rem;
+    max-width: 85rem;
     line-height: 2;
     font-size: 1.8rem;
 
@@ -36,17 +40,20 @@
   .imageContent {
     min-width: 50rem;
     min-height: 50rem;
-    border-radius: 50%;
     display: flex;
+    border: 15px solid var(--color-secondary);
+    margin-right: 2rem;
+    border-radius: 4px;
 
     @include tablet-mobile {
-      min-width: 40rem;
-      min-height: 40rem;
+      min-width: 35rem;
+      min-height: 35rem;
     }
 
     @include mobile-l {
       min-width: 30rem;
       min-height: 30rem;
+      margin-right: 0;
     }
 
     position: relative;
@@ -56,17 +63,10 @@
     .imageBackgroundLayer1 {
       background-color: var(--color-grey-primary);
       flex: 1;
-      border-radius: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-
-    .imageBackgroundLayer2 {
-      width: 50%;
-      height: 50%;
-      background: var(--color-secondary);
-      border-radius: 50%;
+      border-radius: 1px;
 
       img {
         position: absolute;
@@ -75,7 +75,9 @@
         transform: translateX(-50%);
         max-height: 50vh;
         transition: all ease-in-out 0.4s;
-        border-radius: 30%;
+        @include mobile-l {
+          width: 100%;
+        }
 
         &:hover {
           transform: translateX(-50%) translateY(30%) scale(1.5);

@@ -1,0 +1,13 @@
+@import "../../assets/styles/mixins";
+
+.experience-card {
+  @include timeline-content-card;
+  &__stacks {
+    margin-bottom: 0;
+  }
+  &__job-title {
+    font-family: "Montaga", sans-serif;
+    color: var(--color-text-grey);
+    line-height: 1.7;
+  }
+}

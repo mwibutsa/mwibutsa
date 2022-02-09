@@ -18,8 +18,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <>
-      <div className="project-card__timeline timeline-timeline">{company}</div>
-      <div className="project-card">
+      <div className="project-card__timeline timeline__timeline">{company}</div>
+      <div className="timeline-content project-card">
         <h2 className="title2 project-card__tile">{title}</h2>
         <p className="project-card__description">{description}</p>
         <div className="project-card__stacks">

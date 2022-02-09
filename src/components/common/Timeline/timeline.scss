@@ -30,12 +30,18 @@
 
       &:nth-child(even) {
         padding-left: calc(50% + 30px);
-        text-align: left;
+
+        * {
+          text-align: left;
+        }
       }
 
       &:nth-child(odd) {
         padding-right: calc(50% + 30px);
-        text-align: right;
+
+        * {
+          text-align: right;
+        }
       }
       &:last-child {
         margin-bottom: 0;
@@ -68,7 +74,10 @@
       &__item {
         &:nth-child(odd) {
           padding-right: 0px;
-          text-align: left;
+
+          * {
+            text-align: left;
+          }
         }
         &:nth-child(odd),
         &:nth-child(even) {
