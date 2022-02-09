@@ -12,9 +12,6 @@
   }
 
   .content {
-    align-self: center;
-    justify-self: center;
-
     .job {
       &Card {
         display: flex;
@@ -22,7 +19,10 @@
         &:not(:first-child) {
           margin: 10rem 0;
         }
-        flex-wrap: wrap;
+
+        @include tablet-mobile {
+          flex-wrap: wrap;
+        }
       }
       &Duration {
         min-width: 50rem;
@@ -50,8 +50,6 @@
       }
 
       &Description {
-        max-width: 70rem;
-
         @include tablet-mobile {
           max-width: unset;
           line-height: 2;

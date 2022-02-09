@@ -54,3 +54,36 @@ $mobile-extra-small: 375px;
     @content;
   }
 }
+
+@mixin timeline-content-card {
+  background: var(--color-tertiary);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  // border: 1px solid var(--color-secondary);
+
+  &__description {
+    line-height: 1.7;
+    margin: 20px 0 10px;
+  }
+
+  &__stacks {
+    margin-bottom: 3rem;
+  }
+  &__stack {
+    background-color: var(--color-primary);
+    display: inline-block;
+    font-weight: 100;
+    padding: 10px;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-size: 1.6rem;
+    font-family: monospace;
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+}

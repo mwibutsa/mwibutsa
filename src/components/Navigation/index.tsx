@@ -1,4 +1,4 @@
-import Button from "components/Button";
+import Button from "components/common/Button";
 import React, { ReactElement } from "react";
 import classNames from "./navigation.module.scss";
 const Navigation: React.FC = (): ReactElement => {

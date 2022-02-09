@@ -1,0 +1,10 @@
+@import "../../assets/styles/mixins";
+
+.project-card {
+  @include timeline-content-card;
+  background-color: var(--color-bg-2);
+
+  &__description {
+    // color: var(--color-text-dark);
+  }
+}
