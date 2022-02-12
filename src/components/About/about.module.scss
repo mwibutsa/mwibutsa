@@ -7,6 +7,35 @@
     var(--color-secondary),
     var(--color-primary)
   );
+  .onlineProfile {
+    padding: 1rem 0;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    &Link {
+      cursor: pointer;
+      font-weight: 500;
+      background-color: var(--color-primary);
+      padding: 10px;
+      border-radius: 0.5rem;
+      transition: all ease-in-out 0.4s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &:hover {
+        opacity: 0.5;
+        transform: scale(1.2);
+        border-radius: 50%;
+      }
+
+      a {
+        color: var(--color-white);
+      }
+    }
+  }
   .content {
     display: flex;
     align-items: flex-start;

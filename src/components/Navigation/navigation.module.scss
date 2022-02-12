@@ -1,48 +1,61 @@
 @import "../../assets/styles/colors";
+@import "../../assets/styles/mixins";
+
 .Navigation {
   position: sticky;
   display: grid;
   top: 0;
   grid-template-columns: 25rem 1fr 20rem;
   background-color: $color-tertiary;
-  min-height: 9rem;
-  align-items: center;
   padding: 0 15rem;
+  height: fit-content;
+  min-height: 9rem;
   width: 100%;
+  z-index: 100;
 
-  z-index: 10000;
   @media screen and (max-width: 1440px) {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: none;
   }
 
-  @media screen and (max-width: 900px) {
+  @include tablet-mobile {
     padding: 0 3rem;
+    height: fit-content;
   }
 
-  @media screen and (max-width: 750px) {
+  @include mobile-l {
     padding: 0 5rem;
     flex-direction: column;
-    padding-bottom: 5rem;
+    height: 12rem;
+    display: flex;
   }
 
   .Logo {
     font-family: Norican;
     font-style: normal;
     font-weight: normal;
-    font-size: 64px;
-    line-height: 90px;
+    font-size: 6.4rem;
+    line-height: 1.1;
     margin-right: 2rem;
+
+    @include mobile-l {
+      margin-right: auto;
+      margin-left: auto;
+    }
   }
 
   .NavigationMenu {
     display: flex;
     list-style-type: none;
     justify-content: center;
-    flex-wrap: wrap;
 
     @media screen and (max-width: 750px) {
       flex-direction: column;
+      width: 100%;
+      display: none;
     }
 
     .MenuItem {
@@ -68,8 +81,9 @@
       justify-content: center;
       transition: all ease-in-out 0.3s;
 
-      @media screen and (max-width: 750px) {
+      @include mobile-l {
         margin: 1rem 0;
+        margin-right: 0 !important;
       }
 
       &:hover,
