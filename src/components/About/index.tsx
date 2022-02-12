@@ -39,7 +39,12 @@ const About = () => {
             not limited to Backend, Frontend, UI/UX Design, and DevOps.
           </p>
           <Button className="btn--primary btn--big" onClick={() => {}}>
-            Get my cv
+            <a
+              href="https://drive.google.com/file/d/1TdHqg3UFnUOEORlbK0abG0_ZzIcqV2bk/view?usp=sharing"
+              download
+            >
+              View my cv
+            </a>
           </Button>
         </div>
       </div>

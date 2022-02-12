@@ -9,6 +9,9 @@
   --color-text-accent: #fcb9b2;
   --color-text-grey: #c8c8c8;
   --color-link: #ff5c00;
+  --font-default: "Open Sans", sans-serif;
+  --font-title: "Josefin Sans", sans-serif;
+  --font-special-heading: "Montaga", sans-serif;
 }
 
 $color-primary: var(--color-grey-primary);
@@ -20,3 +23,6 @@ $color-text-dark: var(--color-text-dark);
 $color-text-accent: var(--color-text-accent);
 $color-text-grey: var(--color-text-grey);
 $color-link: #ff5c00;
+$font-default: var(--font-default);
+$font-title: var(--font-title);
+$font-special-heading: var(--font-special-heading);
