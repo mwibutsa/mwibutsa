@@ -1,12 +1,16 @@
 @import "../../assets/styles/colors";
 .Navigation {
+  position: sticky;
   display: grid;
+  top: 0;
   grid-template-columns: 25rem 1fr 20rem;
   background-color: $color-tertiary;
   min-height: 9rem;
   align-items: center;
   padding: 0 15rem;
+  width: 100%;
 
+  z-index: 10000;
   @media screen and (max-width: 1440px) {
     display: flex;
     flex-wrap: wrap;
@@ -19,7 +23,6 @@
   @media screen and (max-width: 750px) {
     padding: 0 5rem;
     flex-direction: column;
-    align-items: flex-start;
     padding-bottom: 5rem;
   }
 
@@ -46,13 +49,24 @@
       display: inline-block;
       padding: 1rem 0;
       margin: 1rem 0;
-      margin-right: 4rem;
+
+      &:not(:last-child) {
+        margin-right: 4rem;
+      }
+
+      box-sizing: border-box;
 
       cursor: pointer;
       border: 5px solid transparent;
       border-left: none;
       border-right: none;
       white-space: nowrap;
+      min-width: 9rem;
+      min-height: 4.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all ease-in-out 0.3s;
 
       @media screen and (max-width: 750px) {
         margin: 1rem 0;

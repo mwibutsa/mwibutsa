@@ -7,7 +7,7 @@ const EMPLOYMENTS = [
   {
     company: "CodeLand",
     description:
-      "Mixins allow you to define styles that can be re-used throughout your stylesheet. They make it easy to avoid using non-semantic classes like .float-left, and to distribute collections of styles in libraries.",
+      "Coding new solutions that will increase scalability and availability of business services.",
     stacks: ["Javascript", "Html", "CSS", "SASS"],
     duration: "January 2022 - Present",
     jobTitle: "Frontend Developer",
@@ -16,7 +16,7 @@ const EMPLOYMENTS = [
   {
     company: "Ossix technologies",
     description:
-      "Mixins allow you to define styles that can be re-used throughout your stylesheet. They make it easy to avoid using non-semantic classes like .float-left, and to distribute collections of styles in libraries.",
+      "Worked in a team on a platform to send and receive money worldwide in an instant.",
     stacks: [
       "Javascript",
       "Typescript",
@@ -35,7 +35,7 @@ const EMPLOYMENTS = [
   {
     company: "Andela",
     description:
-      "Mixins allow you to define styles that can be re-used throughout your stylesheet. They make it easy to avoid using non-semantic classes like .float-left, and to distribute collections of styles in libraries.",
+      "Provided digital and automated solutions to Andela partners by building web applications relevant to their business operations.",
     stacks: [
       "Javascript",
       "Typescript",
@@ -55,7 +55,7 @@ const EMPLOYMENTS = [
   {
     company: "Quicktech Rwanda",
     description:
-      "Mixins allow you to define styles that can be re-used throughout your stylesheet. They make it easy to avoid using non-semantic classes like .float-left, and to distribute collections of styles in libraries.",
+      "Provided digital and automated solutions to Quick-tech partners by building web applications relevant to their business operations.",
     stacks: ["Javascript", "PHP", "Html", "CSS"],
     duration: "January 2017 - August 2018",
     jobTitle: "Fullstack developer",

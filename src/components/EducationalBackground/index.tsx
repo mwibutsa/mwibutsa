@@ -14,7 +14,7 @@ const EducationalBackground = () => {
       >
         <h1 className="title-block">Educational background</h1>
 
-        <div className={classes.content}>
+        <div className={cs(classes.content, "margin-top-64")}>
           <div className={classes.educationCard}>
             <div>
               <h1 className={classes.educationDuration}>
@@ -40,8 +40,8 @@ const EducationalBackground = () => {
                 Computer & Software engineering
               </h1>
               <p className={classes.educationDescription}>
-                I am a full-stack software engineer and a natural team player
-                with both remote and onsite experience.
+                Attended the University of Rwanda, for Bachelor's of computer
+                and software engineering.
               </p>
             </div>
           </div>

@@ -774,7 +774,7 @@ body {
 
   .title {
     &-introduction {
-      font-family: "Montaga", sans-serif;
+      font-family: $font-special-heading;
       font-size: 6.2rem;
       line-height: 1.4;
     }
@@ -784,11 +784,9 @@ body {
       padding-bottom: 1rem;
       margin-bottom: 1rem;
       font-size: 3.2rem;
+      margin-left: auto;
+      margin-right: auto;
 
-      @include mobile {
-        margin-left: auto;
-        margin-right: auto;
-      }
       &::after {
         content: "";
         position: absolute;

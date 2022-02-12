@@ -13,7 +13,7 @@ const Navigation: React.FC = (): ReactElement => {
         <li className={classNames.MenuItem}>Let's talk</li>
       </ul>
       <Button className="btn--primary" onClick={() => {}}>
-        Contact
+        <a href="mailto:floribert.mwibutsa@gmail.com">Contact</a>
       </Button>
     </div>
   );
