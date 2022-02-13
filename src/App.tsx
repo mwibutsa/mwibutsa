@@ -7,6 +7,7 @@ function App() {
     <Router>
       <Navigation />
       <Routes>
+        <Route path="*" element={<LandingPage />} />
         <Route path="/home" element={<LandingPage />} />
         <Route path="/about" element={<LandingPage />} />
         <Route path="/services" element={<LandingPage />} />
@@ -14,7 +15,6 @@ function App() {
         <Route path="/experience" element={<LandingPage />} />
         <Route path="/projects" element={<LandingPage />} />
         <Route path="/contact-me" element={<LandingPage />} />
-        <Route path="*" element={<LandingPage />} />
       </Routes>
     </Router>
   );
