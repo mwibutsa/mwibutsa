@@ -2,6 +2,24 @@
 @import "../../assets/styles/mixins";
 
 .Navigation {
+  a {
+    text-decoration: none;
+    color: var(--color-white);
+    padding: 0 !important;
+    margin: 0 !important;
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      text-decoration: none;
+      color: var(--color-white);
+    }
+  }
   position: sticky;
   display: grid;
   top: 0;
@@ -105,6 +123,10 @@
     font-size: 6.4rem;
     line-height: 1.1;
     margin-right: 2rem;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 
     @include mobile-l {
       margin-right: auto;
@@ -128,7 +150,7 @@
 
     .menuItem {
       display: inline-block;
-      padding: 1rem 0;
+      padding: 0;
       margin: 1rem 0;
 
       &:not(:last-child) {
@@ -142,11 +164,11 @@
       border-left: none;
       border-right: none;
       white-space: nowrap;
-      min-width: 9rem;
+      min-width: 8rem;
       min-height: 4.5rem;
       display: flex;
       align-items: center;
-      justify-content: center;
+      font-weight: bold;
       transition: all ease-in-out 0.3s;
 
       @include mobile-l {
@@ -154,12 +176,13 @@
         margin-right: 0 !important;
       }
 
-      &:hover,
-      &:active {
-        border-bottom: 5px solid $color-secondary;
+      &.active__menu {
+        border-bottom: 5px solid $color-secondary !important;
+      }
+      &:hover {
+        border-bottom: 5px solid $color-secondary !important;
         position: relative;
         background-color: darken($color: $color-tertiary, $amount: 0.6);
-        font-weight: bold;
       }
     }
   }
