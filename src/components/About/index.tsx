@@ -36,6 +36,8 @@ const About = () => {
               <a
                 className="text--white"
                 href="https://www.linkedin.com/in/mwibutsa/"
+                target="_blank"
+                rel="noreferrer"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
