@@ -8,13 +8,6 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="*" element={<LandingPage />} />
-        <Route path="/home" element={<LandingPage />} />
-        <Route path="/about" element={<LandingPage />} />
-        <Route path="/services" element={<LandingPage />} />
-        <Route path="/education" element={<LandingPage />} />
-        <Route path="/experience" element={<LandingPage />} />
-        <Route path="/projects" element={<LandingPage />} />
-        <Route path="/contact-me" element={<LandingPage />} />
       </Routes>
     </Router>
   );
