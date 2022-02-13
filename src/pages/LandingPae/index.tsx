@@ -5,15 +5,28 @@ import Footer from "components/Footer";
 import Projects from "components/Projects";
 import WhatIDo from "components/WhatIDo";
 import WorkExperience from "components/WorkExperience";
+import { Element } from "react-scroll";
 const LandingPage = () => {
   return (
     <div>
-      <About />
-      <WhatIDo />
-      <WorkExperience />
-      <Projects />
-      <EducationalBackground />
-      <CTASection />
+      <Element name="About">
+        <About />
+      </Element>
+      <Element name="Services">
+        <WhatIDo />
+      </Element>
+      <Element name="Experience">
+        <WorkExperience />
+      </Element>
+      <Element name="Projects">
+        <Projects />
+      </Element>
+      <Element name="Education">
+        <EducationalBackground />
+      </Element>
+      <Element name="LetsTalk">
+        <CTASection />
+      </Element>
       <Footer />
     </div>
   );
