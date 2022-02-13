@@ -12,8 +12,11 @@ const Timeline: React.FC<TimelineProps> = ({
   return (
     <section className="timeline-section">
       <div className="timeline__items">
-        {data.map((itemData) => (
-          <div className="timeline__item">
+        {data.map((itemData, index) => (
+          <div
+            key={`${Object.keys(itemData)[0]}-${index}`}
+            className="timeline__item"
+          >
             <div className="timeline__dot"></div>
 
             <Content {...itemData} />

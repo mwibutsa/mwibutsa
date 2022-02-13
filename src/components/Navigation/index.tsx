@@ -1,20 +1,36 @@
-import Button from "components/common/Button";
+import cs from "classnames";
 import React, { ReactElement } from "react";
-import classNames from "./navigation.module.scss";
+import classes from "./navigation.module.scss";
+
 const Navigation: React.FC = (): ReactElement => {
+  const navRef = React.useRef<HTMLDivElement>(null);
+
+  const handleButtonClick = React.useCallback(
+    (e: React.MouseEvent<HTMLDivElement>) => {
+      const button = e.currentTarget as HTMLDivElement;
+      button.classList.toggle(classes.hideMenu);
+      if (navRef.current) {
+        navRef.current.classList.toggle(classes.showMenu);
+      }
+      console.log(navRef.current);
+    },
+    []
+  );
+
   return (
-    <div className={classNames.Navigation}>
-      <h1 className={classNames.Logo}>Mwibutsa</h1>
-      <ul className={classNames.NavigationMenu}>
-        <li className={classNames.MenuItem}>About me</li>
-        <li className={classNames.MenuItem}>Experience</li>
-        <li className={classNames.MenuItem}>Project</li>
-        <li className={classNames.MenuItem}>Education</li>
-        <li className={classNames.MenuItem}>Let's talk</li>
+    <div ref={navRef} className={classes.Navigation}>
+      <h1 className={classes.logo}>Mwibutsa</h1>
+      <ul className={classes.navigationMenu}>
+        <li className={classes.menuItem}>About me</li>
+        <li className={classes.menuItem}>Experience</li>
+        <li className={classes.menuItem}>Project</li>
+        <li className={classes.menuItem}>Education</li>
+        <li className={classes.menuItem}>Let's talk</li>
       </ul>
-      <Button className="btn--primary" onClick={() => {}}>
-        <a href="mailto:floribert.mwibutsa@gmail.com">Contact</a>
-      </Button>
+      <div
+        onClick={handleButtonClick}
+        className={cs(classes.navigationButton)}
+      ></div>
     </div>
   );
 };
