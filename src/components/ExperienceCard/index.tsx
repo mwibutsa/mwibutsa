@@ -27,7 +27,9 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
         <p className="experience-card__description">{description}</p>
         <div className="experience-card__stacks">
           {stacks.map((language) => (
-            <span className="experience-card__stack">{language}</span>
+            <span key={language} className="experience-card__stack">
+              {language}
+            </span>
           ))}
         </div>
       </div>

@@ -18,7 +18,15 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    display: none;
+
+    @include mobile {
+      &.showMenu {
+        .navigationMenu {
+          display: flex !important;
+          animation: showMenu ease-in-out 0.3s;
+        }
+      }
+    }
   }
 
   @include tablet-mobile {
@@ -32,8 +40,65 @@
     height: 12rem;
     display: flex;
   }
+  .hideMenu {
+    display: none;
+    @include mobile {
+      background-color: transparent !important;
+      top: 0;
 
-  .Logo {
+      &::before {
+        transform-origin: bottom right !important;
+        transform: rotate(45deg);
+        width: 4rem !important;
+        transform-origin: center;
+        left: auto !important;
+      }
+
+      &::after {
+        transform: rotate(-45deg);
+        bottom: 2px;
+        transform-origin: bottom right !important;
+
+        left: 4px !important;
+        width: 4rem !important;
+      }
+    }
+  }
+  .navigationButton {
+    display: none;
+
+    @include mobile {
+      display: block;
+      width: 5rem;
+      padding: 2px;
+      top: 40%;
+      background-color: var(--color-text-grey);
+      &::after,
+      &::before {
+        content: "";
+        position: absolute;
+        padding: 2px;
+        width: 100%;
+        background-color: var(--color-text-grey);
+        left: 0;
+        transition: all cubic-bezier(0.4, 0, 1, 1) 0.3s;
+        backface-visibility: hidden;
+      }
+
+      &::after {
+        margin-top: 1rem;
+      }
+      &::before {
+        top: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      position: absolute;
+      right: 1rem;
+      cursor: pointer;
+    }
+  }
+  .logo {
     font-family: Norican;
     font-style: normal;
     font-weight: normal;
@@ -43,11 +108,10 @@
 
     @include mobile-l {
       margin-right: auto;
-      margin-left: auto;
     }
   }
 
-  .NavigationMenu {
+  .navigationMenu {
     display: flex;
     list-style-type: none;
     justify-content: center;
@@ -55,10 +119,14 @@
     @media screen and (max-width: 750px) {
       flex-direction: column;
       width: 100%;
+      position: absolute;
       display: none;
+      background-color: var(--color-tertiary);
+      top: 10rem;
+      animation-fill-mode: both;
     }
 
-    .MenuItem {
+    .menuItem {
       display: inline-block;
       padding: 1rem 0;
       margin: 1rem 0;
@@ -94,5 +162,29 @@
         font-weight: bold;
       }
     }
+  }
+}
+
+@keyframes showMenu {
+  0% {
+    left: -1000px;
+    opacity: 0;
+
+    transform-origin: top right;
+  }
+  50% {
+    left: -100px;
+    opacity: 0.3;
+  }
+
+  80% {
+    left: -50px;
+    opacity: 0.8;
+  }
+
+  100% {
+    left: 0;
+    opacity: 1;
+    transform: scale(1);
   }
 }
