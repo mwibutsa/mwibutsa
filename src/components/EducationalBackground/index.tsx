@@ -1,5 +1,4 @@
 import cs from "classnames";
-import React from "react";
 import classes from "./educational-background.module.scss";
 const EducationalBackground = () => {
   return (
@@ -18,7 +17,38 @@ const EducationalBackground = () => {
           <div className={classes.educationCard}>
             <div>
               <h1 className={classes.educationDuration}>
-                AUGUST 2016 - APRIL 2020
+                JANUARY 2022 - CURRENT
+              </h1>
+              <h1
+                className={cs(
+                  classes.educationTitle,
+                  classes.educationDegree,
+                  "margin-bottom-16 text-center"
+                )}
+              >
+                (Bachelor's)
+              </h1>
+            </div>
+            <div className={classes.educationContent}>
+              <h1
+                className={cs(classes.educationInstitution, "margin-bottom-8")}
+              >
+                University of Kigali
+              </h1>
+              <h1 className={cs(classes.educationTitle, "margin-bottom-16")}>
+                Computer science
+              </h1>
+              <p className={classes.educationDescription}>
+                Attending the University of Kigali, for Bachelor's of computer
+                science.
+              </p>
+            </div>
+          </div>
+
+          <div className={classes.educationCard}>
+            <div>
+              <h1 className={classes.educationDuration}>
+                AUGUST 2016 - AUGUST 2028
               </h1>
               <h1
                 className={cs(

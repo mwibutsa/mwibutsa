@@ -5,6 +5,25 @@ import classes from "./work-experience.module.scss";
 
 const EMPLOYMENTS = [
   {
+    company: "CcHub",
+    description:
+      "accelerating the application of social capital and technology for economic prosperity",
+    stacks: [
+      "Javascript",
+      "React",
+      "CSS",
+      "SASS",
+      "HTML",
+      "Typescript",
+      "Redux",
+      "React-native",
+      "GraphQL",
+      "Apollo",
+    ],
+    duration: "January 2022 - Present",
+    jobTitle: "Senior Frontend Developer",
+  },
+  {
     company: "CodeLand",
     description:
       "Coding new solutions that will increase scalability and availability of business services.",

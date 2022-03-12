@@ -11,23 +11,18 @@
 
     .education {
       &Card {
-        display: flex;
         margin-top: 2rem;
         margin: 0 auto;
-        justify-content: space-between;
 
         &:not(:first-child) {
           margin: 10rem 0;
         }
-        flex-wrap: wrap;
 
-        @include mobile {
-          flex-direction: column;
-        }
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
       }
 
       &Degree {
-        text-align: center;
         margin-top: 2rem;
 
         @include tablet-mobile {
@@ -42,8 +37,10 @@
       }
 
       &Duration {
+        width: fit-content;
         color: var(--color-text-accent);
         font-size: 3.2rem;
+        min-width: 40rem !important;
 
         @include tablet-mobile {
           font-size: 2.8rem;
@@ -58,8 +55,6 @@
       }
 
       &Content {
-        margin-left: 2rem;
-
         @include mobile {
           margin-left: unset;
           text-align: center;
@@ -68,6 +63,7 @@
 
       &Description {
         max-width: 70rem;
+        letter-spacing: 1px;
 
         @include tablet-mobile {
           max-width: unset;
