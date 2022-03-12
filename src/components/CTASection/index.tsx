@@ -1,6 +1,5 @@
 import cs from "classnames";
 import Button from "components/common/Button";
-import React from "react";
 import classes from "./cta-section.module.scss";
 const CTASection = () => {
   return (

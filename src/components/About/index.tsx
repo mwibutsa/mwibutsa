@@ -1,7 +1,6 @@
 import ProfilePic from "assets/images/Profile.png";
 import cs from "classnames";
 import Button from "components/common/Button";
-import React from "react";
 import classes from "./about.module.scss";
 const About = () => {
   return (
@@ -98,7 +97,7 @@ const About = () => {
           </p>
           <Button className="btn--primary btn--big" onClick={() => {}}>
             <a
-              href="https://drive.google.com/file/d/1TdHqg3UFnUOEORlbK0abG0_ZzIcqV2bk/view?usp=sharing"
+              href="https://docs.google.com/document/d/1sSjm0xRdvn_36mjuSyo1DIN2B5uHLwxetJVB_jDZw0s/edit?usp=sharing"
               download
               target="_blank"
               rel="noreferrer"
