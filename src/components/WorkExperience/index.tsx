@@ -7,7 +7,7 @@ const EMPLOYMENTS = [
   {
     company: "CcHub",
     description:
-      "accelerating the application of social capital and technology for economic prosperity",
+      "Accelerating the application of social capital and technology for economic prosperity",
     stacks: [
       "Javascript",
       "React",
@@ -20,7 +20,7 @@ const EMPLOYMENTS = [
       "GraphQL",
       "Apollo",
     ],
-    duration: "January 2022 - Present",
+    duration: "March 2022 - Present",
     jobTitle: "Senior Frontend Developer",
   },
   {
