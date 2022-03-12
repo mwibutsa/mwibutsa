@@ -31,8 +31,14 @@ I am naturally a good team player with both remote and onsite experience.
 - API integration
 
 
-
 ## WORK HISTORY
+
+- ### JANUARY 2022- PRESENT  
+
+  Senior Frontend developer | [CcHub](https://cchubnigeria.com/) | Kigali, Rwanda  
+  
+  > Accelerating the application of social capital and technology for economic prosperity.
+  
 
 - ### JANUARY 2022- PRESENT  
 
