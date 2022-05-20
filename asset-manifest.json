@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f340403.chunk.css",
+    "main.js": "/static/js/main.8cac02f8.chunk.js",
+    "main.js.map": "/static/js/main.8cac02f8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f001d71a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f001d71a.js.map",
+    "static/js/2.d71bf311.chunk.js": "/static/js/2.d71bf311.chunk.js",
+    "static/js/2.d71bf311.chunk.js.map": "/static/js/2.d71bf311.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2f340403.chunk.css.map": "/static/css/main.2f340403.chunk.css.map",
+    "static/js/2.d71bf311.chunk.js.LICENSE.txt": "/static/js/2.d71bf311.chunk.js.LICENSE.txt",
+    "static/media/Profile.441296ac.png": "/static/media/Profile.441296ac.png",
+    "static/media/backend-icon.73e5adae.svg": "/static/media/backend-icon.73e5adae.svg",
+    "static/media/frontend-icon.6a517805.svg": "/static/media/frontend-icon.6a517805.svg",
+    "static/media/mobile-app-icon.8215a4f5.svg": "/static/media/mobile-app-icon.8215a4f5.svg",
+    "static/media/ui-ux-icon.f1ff2431.svg": "/static/media/ui-ux-icon.f1ff2431.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f001d71a.js",
+    "static/js/2.d71bf311.chunk.js",
+    "static/css/main.2f340403.chunk.css",
+    "static/js/main.8cac02f8.chunk.js"
+  ]
+}
