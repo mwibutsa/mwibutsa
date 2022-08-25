@@ -4,7 +4,7 @@ Kigali, Rwanda KG 256 st, Kigali, Kigali City | +250787740316 | floribert.mwibut
 
 ## PROFESSIONAL SUMMARY
 
-I am a full-stack software engineer with `5 years` of experience in building modern web and mobile applications using Python, Javascript, React, React-native, Nodejs, Vue.js, and Typescript.
+I am a full-stack software engineer with `5 years` of experience in building modern web and mobile applications using Python, Javascript, React, React-native, Nodejs, and Typescript.
 
 In addition to my experience, I have practical experience with DevOps, most specifically deployment, containerization with Docker, automated tests, unit and integration tests, and using popular tools to connect development teams.
 
