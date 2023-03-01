@@ -31,7 +31,7 @@ I am naturally a good team player with both remote and onsite experience.
 
 ## WORK HISTORY
 
-- ### JULY 2022- PRESENT  
+- ### JULY 2022- JANUARY 2023  
 
   Software developer | [HireMango](https://hiremango.com/) | Kigali, Rwanda  
   
