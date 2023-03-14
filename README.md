@@ -15,16 +15,16 @@ I am naturally a good team player with both remote and onsite experience.
 ## SKILLS
 
 - JavaScript : `5 years`
-- React & Redux: `4 years`
-- React Native: `2 years`
-- Node.js: `4 years`
-- Typescript: `2 years`
+- React & Redux: `5 years`
+- React Native: `3 years`
+- Node.js: `5 years`
+- Typescript: `3 years`
 - Python:  `3 years`
 - Django: `3 years`
 - User Experience design (UI/UX)
 - HTML, CSS, and SASS:  `5 years`
 - Docker:  `2 years`
-- AWS:  `2 years`
+- AWS:  `3 years`
 - Cypress: `2 years `
 - GraphQL: `3 years` & Apollo: `2 years`
 - API integration: `4 years`
