@@ -1,141 +1,136 @@
 # [MWIBUTSA FLORIBERT](https://www.mwibutsa.com/)
- 
+
 Kigali, Rwanda KG 256 st, Kigali, Kigali City | +250787740316 | floribert.mwibutsa@gmail.com
 
 ## PROFESSIONAL SUMMARY
 
-I am a full-stack software engineer with `5 years` of experience in building modern web and mobile applications using Python, Javascript, React, React-native, Nodejs, and Typescript.
+I have been a software engineer for more than 5 years. I have a strong background in building web and mobile applications using Javascript, Typescript, React, React-native, Next.js, GraphQL, and Python/Django.
 
-In addition to my experience, I have practical experience with DevOps, most specifically deployment, containerization with Docker, automated tests, unit and integration tests, and using popular tools to connect development teams.
+I follow development best practices, like code testing, code reusability, API documentation, and version control, to ensure reliable codebase management and scalability.
 
-In fact, I can be part of any technical department including but not limited to Backend, Frontend, UI/UX Design, and DevOps.
-
-I am naturally a good team player with both remote and onsite experience.
+In addition to that, I have practical knowledge in development operations, like continuous deployment and delivery, Unit testing, integration, end-to-end testing, Quality assurance, and containerization with tools like docker on AWS and Digital Ocean.
 
 ## SKILLS
 
 - JavaScript : `5 years`
-- React & Redux: `5 years`
+- React & Redux: `4 years`
 - React Native: `3 years`
-- Node.js: `5 years`
+- Node.js: `4 years`
 - Typescript: `3 years`
-- Python:  `3 years`
+- Python: `3 years`
 - Django: `3 years`
 - User Experience design (UI/UX)
-- HTML, CSS, and SASS:  `5 years`
-- Docker:  `2 years`
-- AWS:  `3 years`
+- HTML/HTML5, CSS/CSS3, and SASS: `5 years`
+- Docker: `2 years`
+- AWS: `3 years`
 - Cypress: `2 years `
 - GraphQL: `3 years` & Apollo: `2 years`
 - API integration: `4 years`
 
 ## WORK HISTORY
 
-- ### JULY 2022- JANUARY 2023  
+- ### JULY 2022- MARCH 2023
 
-  Software developer | [HireMango](https://hiremango.com/) | Kigali, Rwanda  
-  
-  - Coding new web and mobile applications using Nodejs, React and React-native
+  Software developer | [MangoDev](https://mangodev.io) | Kigali, Rwanda
+
+  - Built new web and mobile applications using Nodejs, React, and React-native
+  - Deployed backend API built in Node.js/Express to AWS and Digital Ocean
 
 ## WORK HISTORY
 
-- ### JANUARY 2022- JULY 2022  
+- ### JANUARY 2022- JULY 2022
 
-  Senior Frontend developer | [CcHub](https://cchubnigeria.com/) | Kigali, Rwanda  
-  
+  Senior Frontend developer | [CcHub](https://cchubnigeria.com/) | Kigali, Rwanda
+
   - Coded pixel-perfect mobile applications from Figma using React native and Apollo GraphQL
 
   - Coded frontend applications with React and Typescript
 
   - Worked with the HR team to find new experienced developers through interviews and live coding assessments.
 
-  - Inspired CcHub community members to start a career in programming through community events, by sharing my experience and some though in regards to a beginner's programming road map. 
+  - Inspired CcHub community members to start a career in programming through community events, by sharing my experience and some though in regards to a beginner's programming road map.
 
-  - Advised a number of startups and suggested changes that could help them achieve their companies' growth, through the product advisory program of CcHub. 
+  - Advised a number of startups and suggested changes that could help them achieve their companies' growth, through the product advisory program of CcHub.
 
   - Single-handedly managed more than 5 frontend projects per sprint including web and mobile applications.
 
   - Collaborated with stakeholders from different departments to help the company maintain its partnership with other companies.
-  
 
-- ### JANUARY 2022- JULY 2022  
+- ### JANUARY 2022- JULY 2022
 
-  Frontend developer | [CodeLand](https://www.codeland.it/) | Kigali, Rwanda  
-  
+  Frontend developer | [CodeLand](https://www.codeland.it/) | Kigali, Rwanda
+
   - Implement interactive UI components to be used within the AEM (Adobe experience Manager)
 
   - Identify and correct front-end bugs.
 
   - Work closely with the back-end and design team to develop highly scalable applications.
 
-- ### AUGUST 2020- JANUARY 2022  
+- ### AUGUST 2020- JANUARY 2022
 
-  Software engineer | [Ossix Technologies](ossix.technology) | Kigali, Rwanda. 
-  
-   - Accelerated the development of 2u & m2u finance applications for Ossix technologies.
+  Software engineer | [Ossix Technologies](ossix.technology) | Kigali, Rwanda.
 
-   - Stabilised core functionalities of 2u & m2u web applications by tracking, recording and fixing bugs.
+  - Accelerated the development of 2u & m2u finance applications for Ossix technologies.
 
-   - Worked closely with the design team to transform high fidelity UI components into user interactive web pages using ReactJs, Next.js and Typescript.
+  - Stabilised core functionalities of 2u & m2u web applications by tracking, recording and fixing bugs.
 
-   - Researched and shared efficient and reliable techniques to optimise and implement responsive images across different platforms.
+  - Worked closely with the design team to transform high fidelity UI components into user interactive web pages using ReactJs, Next.js and Typescript.
 
-   - Wrote end to end test to ensure successful interaction between the front-end and the supporting backend infrastructure. 
+  - Researched and shared efficient and reliable techniques to optimise and implement responsive images across different platforms.
 
-   - Led the team as a scrum master through different sprints to ensure increased productivity and best software development practices.
+  - Wrote end to end test to ensure successful interaction between the front-end and the supporting backend infrastructure.
 
-- ### JULY 2019-NOVEMBER 2019  
+  - Led the team as a scrum master through different sprints to ensure increased productivity and best software development practices.
 
-  Backend web developer | LifeStore pharmacy | Lagos, Nigeria (remote)  
-  
+- ### JULY 2019-NOVEMBER 2019
+
+  Backend web developer | LifeStore pharmacy | Lagos, Nigeria (remote)
+
   > Maintained web application database and integration tests during development.
-  Built web applications as a digital and scalable solution to their inventory management.
+  > Built web applications as a digital and scalable solution to their inventory management.
 
-- ### AUGUST 2018-APRIL 2020  
+- ### AUGUST 2018-APRIL 2020
 
-  Software Engineer | [Andela](andela.com) | Kigali, Rwanda. 
-  
-   - Built reliable web and mobile based application solutions for Andela partners.
+  Software Engineer | [Andela](andela.com) | Kigali, Rwanda.
 
-   - Maintained and collaborated on the PharmIQ web application for Andela partners.
+  - Built reliable web and mobile based application solutions for Andela partners.
 
-   - Trained, led and onboarded more than 10 new employee prospects about Andela values and as a technical Learning facilitator assistant. 
+  - Maintained and collaborated on the PharmIQ web application for Andela partners.
 
-   - Wrote unit and integration tests for different web applications with Jest,Supertest, Mocha and chai.
+  - Trained, led and onboarded more than 10 new employee prospects about Andela values and as a technical Learning facilitator assistant.
 
-   - Volunteered to participate under numerous marketing strategies of Andela.
+  - Wrote unit and integration tests for different web applications with Jest,Supertest, Mocha and chai.
 
+  - Volunteered to participate under numerous marketing strategies of Andela.
 
-- ### JANUARY 2017-AUGUST 2018  
+- ### JANUARY 2017-AUGUST 2018
 
-  Fullstack developer | [QuickTech Rwanda](https://qt.rw/) | Kigali, Rwanda  
-  
-   - Coded web applications to digitalise customer business operations using PHP and Javascript.
+  Fullstack developer | [QuickTech Rwanda](https://qt.rw/) | Kigali, Rwanda
 
-   - Worked closely with the design team to implement designed mockups with HTML, CSS and Javascript.
+  - Coded web applications to digitalise customer business operations using PHP and Javascript.
 
-## EDUCATION  
+  - Worked closely with the design team to implement designed mockups with HTML, CSS and Javascript.
 
-- ### SEPTEMBER 2016 - 2020  
+## EDUCATION
+
+- ### SEPTEMBER 2016 - 2020
 
   - Bachelor's degree in computer and software engineering
-  The University of Rwanda.
+    The University of Rwanda.
 
-## REFERENCES. 
+## REFERENCES.
 
-   > Available upon request
+> Available upon request
 
-## CERTIFICATIONS  
+## CERTIFICATIONS
 
-  - User experience design essentials
-  - Frontend application development with React
-  - Test-driven development
-  
+- User experience design essentials
+- Frontend application development with React
+- Test-driven development
+
 ## OLINE PROFILES
-  - [LinkedIn](https://www.linkedin.com/in/mwibutsa/)
-  - [Github](https://github.com/mwibutsa)
-  - [Stack Overflow](https://stackoverflow.com/users/11440526/mwibutsa-floribert)
-  - [CV File](https://docs.google.com/document/d/1sSjm0xRdvn_36mjuSyo1DIN2B5uHLwxetJVB_jDZw0s/edit?usp=sharing)
 
-
-
+- [LinkedIn](https://www.linkedin.com/in/mwibutsa/)
+- [Github](https://github.com/mwibutsa)
+- [Stack Overflow](https://stackoverflow.com/users/11440526/mwibutsa-floribert)
+- [CV File](https://docs.google.com/document/d/1sSjm0xRdvn_36mjuSyo1DIN2B5uHLwxetJVB_jDZw0s/edit?usp=sharing)

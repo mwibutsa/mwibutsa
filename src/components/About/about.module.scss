@@ -1,117 +1,121 @@
 @import "../../assets/styles/mixins";
 
 .About {
-  background: linear-gradient(
-    180deg,
-    var(--color-tertiary),
-    var(--color-secondary),
-    var(--color-primary)
-  );
-  .onlineProfile {
-    padding: 1rem 0;
-    width: 20rem;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    justify-content: space-between;
-    &Link {
-      cursor: pointer;
-      font-weight: 500;
-      background-color: var(--color-primary);
-      padding: 10px;
-      border-radius: 0.5rem;
-      transition: all ease-in-out 0.4s;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    background: linear-gradient(180deg,
+            var(--color-tertiary),
+            var(--color-secondary),
+            var(--color-primary));
 
-      &:hover {
-        opacity: 0.5;
-        transform: scale(1.2);
-        border-radius: 50%;
-      }
+    .onlineProfile {
+        padding: 1rem 0;
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: space-between;
 
-      a {
-        color: var(--color-white);
-      }
-    }
-  }
-  .content {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+        &Link {
+            cursor: pointer;
+            font-weight: 500;
+            background-color: var(--color-primary);
+            padding: 10px;
+            border-radius: 0.5rem;
+            transition: all ease-in-out 0.4s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-    @include mobile-l {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-  }
+            &:hover {
+                opacity: 0.5;
+                transform: scale(1.2);
+                border-radius: 50%;
+            }
 
-  .textContent {
-    @include mobile-l {
-      margin-bottom: 5rem !important;
-    }
-  }
-
-  .professionalSummary {
-    max-width: 85rem;
-    line-height: 2;
-    font-size: 1.8rem;
-
-    @include mobile-l {
-      text-align: justify;
-      padding: 0 2rem;
-    }
-  }
-
-  .imageContent {
-    min-width: 50rem;
-    min-height: 50rem;
-    display: flex;
-    border: 15px solid var(--color-secondary);
-    margin-right: 2rem;
-    border-radius: 4px;
-
-    @include tablet-mobile {
-      min-width: 35rem;
-      min-height: 35rem;
+            a {
+                color: var(--color-white);
+            }
+        }
     }
 
-    @include mobile-l {
-      min-width: 30rem;
-      min-height: 30rem;
-      margin-right: 0;
-    }
+    .content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
 
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-
-    .imageBackgroundLayer1 {
-      background-color: var(--color-grey-primary);
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 1px;
-
-      img {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        max-height: 50vh;
-        transition: all ease-in-out 0.4s;
         @include mobile-l {
-          width: 100%;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    }
+
+    .textContent {
+        @include mobile-l {
+            margin-bottom: 5rem !important;
+        }
+    }
+
+    .professionalSummary {
+        max-width: 85rem;
+        line-height: 2;
+        font-size: 1.8rem;
+
+        p:not(:last-child) {
+            margin-bottom: 1rem;
         }
 
-        &:hover {
-          transform: translateX(-50%) translateY(30%) scale(1.5);
+        @include mobile-l {
+            text-align: justify;
+            padding: 0 2rem;
         }
-      }
     }
-  }
+
+    .imageContent {
+        min-width: 42rem;
+        min-height: 45rem;
+        display: flex;
+        border: 15px solid var(--color-secondary);
+        margin-right: 2rem;
+        border-radius: 4px;
+
+        @include tablet-mobile {
+            min-width: 35rem;
+            min-height: 35rem;
+        }
+
+        @include mobile-l {
+            min-width: 30rem;
+            min-height: 30rem;
+            margin-right: 0;
+        }
+
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+
+        .imageBackgroundLayer1 {
+            background-color: var(--color-grey-primary);
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 1px;
+
+            img {
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                max-height: 50vh;
+                transition: all ease-in-out 0.4s;
+
+                @include mobile-l {
+                    width: 100%;
+                }
+
+
+            }
+        }
+    }
 }

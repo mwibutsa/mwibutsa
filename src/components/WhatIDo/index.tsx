@@ -1,25 +1,23 @@
-import BackenddIcon from "assets/images/backend-icon.svg";
-import FrontendIcon from "assets/images/frontend-icon.svg";
-import MobileAppIcon from "assets/images/mobile-app-icon.svg";
-import UIUXIcon from "assets/images/ui-ux-icon.svg";
-import cs from "classnames";
-import React from "react";
-import classes from "./what-i-do.module.scss";
+import BackenddIcon from 'assets/images/backend-icon.svg';
+import FrontendIcon from 'assets/images/frontend-icon.svg';
+import MobileAppIcon from 'assets/images/mobile-app-icon.svg';
+import cs from 'classnames';
+import classes from './what-i-do.module.scss';
 
 const WhatIDo = () => {
   return (
     <div
       className={cs(
-        "container-default padding-top-100 padding-bottom-100",
+        'container-default padding-top-100 padding-bottom-100',
         classes.WhatIDo
       )}
     >
-      <h1 className="title-block">What I do</h1>
+      <h1 className='title-block'>What I do</h1>
       <div className={classes.content}>
-        <div className={cs(classes.cards, "margin-top-64 margin-bottom-64")}>
+        <div className={cs(classes.cards, 'margin-top-64 margin-bottom-64')}>
           <div className={classes.card}>
             <div className={classes.cardImage}>
-              <img src={FrontendIcon} alt="" />
+              <img src={FrontendIcon} alt='' />
             </div>
             <h1 className={classes.cardTitle}>Frontend development</h1>
             <p className={classes.cardDescription}>
@@ -29,15 +27,17 @@ const WhatIDo = () => {
             </p>
             <div className={classes.techStacks}>
               {[
-                "HTML",
-                "CSS",
-                "SASS",
-                "React",
-                "Javascript",
-                "Typescript",
-                "E2E",
-                "TDD",
-                "Next.js",
+                'Javascript',
+                'Typescript',
+                'React',
+                'HTML/HTML5',
+                'CSS/CSS3',
+                'SASS',
+                'Quality assurance',
+                'Next.js',
+                'GraphQL',
+                'Apollo',
+                'Api integration',
               ].map((stack) => (
                 <span key={stack} className={classes.techStack}>
                   {stack}
@@ -47,7 +47,7 @@ const WhatIDo = () => {
           </div>
           <div className={classes.card}>
             <div className={classes.cardImage}>
-              <img src={BackenddIcon} alt="" />
+              <img src={BackenddIcon} alt='' />
             </div>
             <h1 className={classes.cardTitle}>Backend development</h1>
             <p className={classes.cardDescription}>
@@ -58,15 +58,18 @@ const WhatIDo = () => {
             </p>
             <div className={classes.techStacks}>
               {[
-                "Javascript",
-                "Typescript",
-                "Nodejs",
-                "Express",
-                "Python",
-                "Django",
-                "GraphQL",
-                "Rest API",
-                "TDD",
+                'Javascript',
+                'Typescript',
+                'Nodejs',
+                'Express',
+                'Python',
+                'Django',
+                'GraphQL',
+                'Apollo',
+                'MongoDB',
+                'PostgreSQL',
+                'MySQL',
+                'Micro-services',
               ].map((stack) => (
                 <span key={stack} className={classes.techStack}>
                   {stack}
@@ -76,35 +79,22 @@ const WhatIDo = () => {
           </div>
           <div className={classes.card}>
             <div className={classes.cardImage}>
-              <img src={MobileAppIcon} alt="" />
+              <img src={MobileAppIcon} alt='' />
             </div>
             <h1 className={classes.cardTitle}>Mobile application</h1>
             <p className={classes.cardDescription}>
-              Highly motivated Mobile Application Developer with over 3 plus
-              years of experience in cross platform mobile application
-              development (ios & android) with React-native.
+              Highly motivated Mobile Application Developer with 3 years of
+              experience in cross platform mobile application development (ios &
+              android) with React-native.
             </p>
 
             <div className={classes.techStacks}>
-              {["React-native", "Javascript", "Typescript"].map((stack) => (
-                <span key={stack} className={classes.techStack}>
-                  {stack}
-                </span>
-              ))}
-            </div>
-          </div>
-          <div className={classes.card}>
-            <div className={classes.cardImage}>
-              <img src={UIUXIcon} alt="" />
-            </div>
-            <h1 className={classes.cardTitle}>UI/UX Design</h1>
-            <p className={classes.cardDescription}>
-              Highly skilled UI Developer, seeking to use proven skills in UI
-              prototyping to enhance user experience.
-            </p>
-
-            <div className={classes.techStacks}>
-              {["Figma", "Adobe XD"].map((stack) => (
+              {[
+                'React-native',
+                'Javascript',
+                'Typescript',
+                'Api integration',
+              ].map((stack) => (
                 <span key={stack} className={classes.techStack}>
                   {stack}
                 </span>
@@ -113,7 +103,7 @@ const WhatIDo = () => {
           </div>
         </div>
         <div className={classes.textContent}>
-          <h1 className="title-block">Why should you hire me?</h1>
+          <h1 className='title-block'>Why should you hire me?</h1>
           <p>
             I am a quality-oriented professional who has been consistently
             praised as hard-working by my co-workers and management. Throughout
