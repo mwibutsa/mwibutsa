@@ -1,26 +1,26 @@
 *,
 *::after,
 *::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 
-  @include mobile {
-    font-size: 50%;
-  }
+    @include mobile {
+        font-size: 50%;
+    }
 }
 
 body {
-  font-size: 1.6rem;
-  font-family: $font-default;
-  font-weight: 300;
-  line-height: 1.2;
-  color: #fff;
-  background-color: $color-primary;
+    font-size: 1.6rem;
+    font-family: $font-default;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+    background-color: $color-primary;
 }
 
 h1,
@@ -29,58 +29,59 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-title;
-  font-style: normal;
-  font-weight: normal;
-  margin: 1rem 0;
+    font-family: $font-title;
+    font-style: normal;
+    font-weight: normal;
+    margin: 1rem 0;
 
-  line-height: 1.2;
+    line-height: 1.2;
 }
 
 h1,
 .title1 {
-  font-size: 3.2rem;
+    font-size: 3.2rem;
 }
+
 h2,
 .title2 {
-  font-size: 2.8 rem;
+    font-size: 2.8 rem;
 }
 
 h3,
 .title3 {
-  font-size: 2.4 rem;
+    font-size: 2.4 rem;
 }
 
 h4,
 .title4 {
-  font-size: 2 rem;
+    font-size: 2 rem;
 }
 
 h5,
 .title5 {
-  font-size: 1.6 rem;
+    font-size: 1.6 rem;
 }
 
 h6,
 .title6 {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 a,
 :visited,
 a:link {
-  color: var(--color-link);
-  text-decoration: none;
-  display: inline-flex;
-  transition: all ease-in-out 0.3s;
+    color: var(--color-link);
+    text-decoration: none;
+    display: inline-flex;
+    transition: all ease-in-out 0.3s;
 
-  img {
-    margin-right: 1rem;
-  }
+    img {
+        margin-right: 1rem;
+    }
 
-  &:hover {
-    text-decoration: underline;
-    color: $color-link;
-    color: lighten($color: $color-link, $amount: 10);
-  }
+    &:hover {
+        text-decoration: underline;
+        color: $color-link;
+        color: lighten($color: $color-link, $amount: 10);
+    }
 }

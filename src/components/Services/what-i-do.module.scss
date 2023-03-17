@@ -1,0 +1,64 @@
+@import "../../assets/styles/mixins";
+
+.WhatIDo {
+    @include tablet-mobile {
+        h1 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .textContent {
+        max-width: 70rem;
+        margin: 0 auto;
+        text-align: center;
+        align-self: flex-start;
+
+        @include tablet-mobile {
+            margin-top: 5rem;
+        }
+
+        p {
+            line-height: 2;
+
+            @include tablet-mobile {
+                text-align: center;
+            }
+        }
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        @include tablet-mobile {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+            grid-gap: 5rem;
+        }
+
+        @include mobile {
+            grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        }
+
+        &>* {
+            flex: 1;
+        }
+    }
+
+    .cards {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-gap: 3rem;
+        margin-top: 2rem;
+
+        @include tablet-mobile {
+            width: 100%;
+        }
+    }
+
+
+}
