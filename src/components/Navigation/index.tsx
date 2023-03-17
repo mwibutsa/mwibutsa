@@ -1,25 +1,25 @@
-import cs from "classnames";
-import React, { ReactElement, useCallback, useEffect } from "react";
-import { useLocation } from "react-router";
-import { Link } from "react-router-dom";
-import { scroller } from "react-scroll";
-import classes from "./navigation.module.scss";
+import cs from 'classnames';
+import React, { ReactElement, useCallback, useEffect } from 'react';
+import { useLocation } from 'react-router';
+import { Link } from 'react-router-dom';
+import { scroller } from 'react-scroll';
+import classes from './navigation.module.scss';
 
 const MENUS: { [x: string]: string } = {
-  about: "About",
-  home: "About",
-  experience: "Experience",
-  projects: "Projects",
-  services: "Services",
-  education: "Education",
-  "contact-me": "LetsTalk",
+  about: 'About',
+  home: 'About',
+  experience: 'Experience',
+  projects: 'Projects',
+  services: 'Services',
+  education: 'Education',
+  'contact-me': 'LetsTalk',
 };
 
 const Navigation: React.FC = (): ReactElement => {
   const navRef = React.useRef<HTMLDivElement>(null);
   const buttonRef = React.useRef<HTMLDivElement>(null);
 
-  const [activeMenu, setActiveMenu] = React.useState<string>("About");
+  const [activeMenu, setActiveMenu] = React.useState<string>('About');
 
   const location = useLocation();
 
@@ -27,7 +27,7 @@ const Navigation: React.FC = (): ReactElement => {
     scroller.scrollTo(activeMenu, {
       duration: 1000,
       delay: 0,
-      smooth: "easeInOutCubic",
+      smooth: 'easeInOutCubic',
       offset: -60,
     });
     if (navRef.current && buttonRef.current) {
@@ -38,7 +38,7 @@ const Navigation: React.FC = (): ReactElement => {
 
   useEffect(() => {
     if (location.pathname) {
-      setActiveMenu(MENUS[location.pathname.replace("/", "") || "about"]);
+      setActiveMenu(MENUS[location.pathname.replace('/', '') || 'about']);
     }
   }, [location.pathname]);
 
@@ -63,51 +63,51 @@ const Navigation: React.FC = (): ReactElement => {
   return (
     <div ref={navRef} className={classes.Navigation}>
       <h1 className={classes.logo}>
-        <Link to="/home">Mwibutsa</Link>
+        <Link to='/home'>Mwibutsa</Link>
       </h1>
       <ul className={classes.navigationMenu}>
         <li
           className={cs(classes.menuItem, {
-            [classes.active__menu]: isActive("/about") || isActive("/home"),
+            [classes.active__menu]: isActive('/about') || isActive('/home'),
           })}
         >
-          <Link to="/about">About me</Link>
+          <Link to='/about'>About me</Link>
         </li>
 
         <li
           className={cs(classes.menuItem, {
-            [classes.active__menu]: isActive("/services"),
+            [classes.active__menu]: isActive('/services'),
           })}
         >
-          <Link to="/services">Services</Link>
+          <Link to='/services'>Services</Link>
         </li>
         <li
           className={cs(classes.menuItem, {
-            [classes.active__menu]: isActive("/experience"),
+            [classes.active__menu]: isActive('/experience'),
           })}
         >
-          <Link to="/experience">Experience</Link>
+          <Link to='/experience'>Experience</Link>
         </li>
         <li
           className={cs(classes.menuItem, {
-            [classes.active__menu]: isActive("/projects"),
+            [classes.active__menu]: isActive('/projects'),
           })}
         >
-          <Link to="/projects">Projects</Link>
+          <Link to='/projects'>Projects</Link>
         </li>
         <li
           className={cs(classes.menuItem, {
-            [classes.active__menu]: isActive("/education"),
+            [classes.active__menu]: isActive('/education'),
           })}
         >
-          <Link to="/education">Education</Link>
+          <Link to='/education'>Education</Link>
         </li>
         <li
           className={cs(classes.menuItem, {
-            [classes.active__menu]: isActive("/contact-me"),
+            [classes.active__menu]: isActive('/contact-me'),
           })}
         >
-          <Link to="/contact-me">Let's talk</Link>
+          <Link to='/contact-me'>Let's talk</Link>
         </li>
       </ul>
       <div

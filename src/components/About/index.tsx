@@ -1,4 +1,4 @@
-import ProfilePic from 'assets/images/Profile.png';
+import ProfilePic from 'assets/images/Profile.webp';
 import cs from 'classnames';
 import Button from 'components/common/Button';
 import classes from './about.module.scss';

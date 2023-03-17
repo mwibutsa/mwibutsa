@@ -8,82 +8,83 @@ $mobile-small: 480px;
 $mobile-extra-small: 375px;
 
 @mixin desktop-l {
-  @media (min-width: #{$desktop-large}) {
-    @content;
-  }
+    @media (min-width: #{$desktop-large}) {
+        @content;
+    }
 }
 
 @mixin desktop {
-  @media (min-width: #{$tablet}) and (max-width: #{$desktop-large}) {
-    @content;
-  }
+    @media (min-width: #{$tablet}) and (max-width: #{$desktop-large}) {
+        @content;
+    }
 }
 
 @mixin only-desktop {
-  @media (min-width: #{$tablet-l}) {
-    @content;
-  }
+    @media (min-width: #{$tablet-l}) {
+        @content;
+    }
 }
 
 @mixin tablet {
-  @media (min-width: #{$mobile-large}) and (max-width: #{$tablet}) {
-    @content;
-  }
+    @media (min-width: #{$mobile-large}) and (max-width: #{$tablet}) {
+        @content;
+    }
 }
 
 @mixin tablet-mobile {
-  @media (max-width: #{$tablet}) {
-    @content;
-  }
+    @media (max-width: #{$tablet}) {
+        @content;
+    }
 }
 
 @mixin mobile-l {
-  @media (max-width: #{$mobile-large}) {
-    @content;
-  }
+    @media (max-width: #{$mobile-large}) {
+        @content;
+    }
 }
 
 @mixin mobile {
-  @media (max-width: #{$mobile-small}) {
-    @content;
-  }
+    @media (max-width: #{$mobile-small}) {
+        @content;
+    }
 }
 
 @mixin mobile-small {
-  @media (max-width: #{$mobile-extra-small}) {
-    @content;
-  }
+    @media (max-width: #{$mobile-extra-small}) {
+        @content;
+    }
 }
 
 @mixin timeline-content-card {
-  background: var(--color-tertiary);
-  padding: 2rem;
-  border-radius: 0.5rem;
-  margin-top: 1rem;
-  // border: 1px solid var(--color-secondary);
+    background: var(--color-tertiary);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    border: 1px solid var(--color-primary);
 
-  &__description {
-    line-height: 1.7;
-    margin: 20px 0 10px;
-  }
-
-  &__stacks {
-    margin-bottom: 3rem;
-  }
-  &__stack {
-    background-color: var(--color-primary);
-    display: inline-block;
-    font-weight: 100;
-    padding: 10px;
-    color: #fff;
-    border-radius: 4px;
-    margin-bottom: 5px;
-    font-style: normal;
-    font-size: 1.6rem;
-    font-family: monospace;
-
-    &:not(:last-child) {
-      margin-right: 5px;
+    &__description {
+        line-height: 1.7;
+        margin: 20px 0 10px;
     }
-  }
+
+    &__stacks {
+        margin-bottom: 3rem;
+    }
+
+    &__stack {
+        background-color: var(--color-primary);
+        display: inline-block;
+        font-weight: 100;
+        padding: 10px;
+        color: #fff;
+        border-radius: 4px;
+        margin-bottom: 5px;
+        font-style: normal;
+        font-size: 1.6rem;
+        font-family: monospace;
+
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+    }
 }

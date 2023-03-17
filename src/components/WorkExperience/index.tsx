@@ -139,6 +139,7 @@ const EMPLOYMENTS = [
     jobTitle: 'Fullstack developer',
   },
 ];
+
 const WorkExperience = () => {
   return (
     <div className={classes.WorkExperience}>
