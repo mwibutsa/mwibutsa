@@ -4,11 +4,9 @@ Kigali, Rwanda KG 256 st, Kigali, Kigali City | +250787740316 | floribert.mwibut
 
 ## PROFESSIONAL SUMMARY
 
-I have been a software engineer for more than 5 years. I have a strong background in building web and mobile applications using Javascript, Typescript, React, React-native, Next.js, GraphQL, and Python/Django.
+With 5 years of experience building highly scalable, maintainable, and cross-platform web and mobile applications using Javascript, Typescript, Node.js, React, and React-native, I am a driven and enthusiastic professional.
 
-I follow development best practices, like code testing, code reusability, API documentation, and version control, to ensure reliable codebase management and scalability.
-
-In addition to that, I have practical knowledge in development operations, like continuous deployment and delivery, Unit testing, integration, end-to-end testing, Quality assurance, and containerization with tools like docker on AWS and Digital Ocean.
+My strong background in software development, attention to detail, and innovative mindset allow me to deliver exceptional results. Collaborating effectively with colleagues and stakeholders, I have a proven track record of building solutions that meet business objectives and exceed customer expectations.
 
 ## SKILLS
 
