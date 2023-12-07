@@ -27,6 +27,14 @@ My strong background in software development, attention to detail, and innovativ
 
 ## WORK HISTORY
 
+
+- ### APRIL 2023- PRESENT
+
+  Full-stack developer | [Koin Network](https://www.koin.network) Remote
+
+  - Developed and implemented key features of the NFT marketplace, including front-end components, backend APIs, and blockchain integration.
+  - Collaborated effectively with teammates and stakeholders to contribute to the successful launch and ongoing operation of the platform.
+    
 - ### JULY 2022- MARCH 2023
 
   Software developer | [MangoDev](https://mangodev.io) | Kigali, Rwanda
