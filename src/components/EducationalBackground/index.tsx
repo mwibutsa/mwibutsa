@@ -1,19 +1,19 @@
-import cs from 'classnames';
-import classes from './educational-background.module.scss';
+import cs from "classnames";
+import classes from "./educational-background.module.scss";
 const EducationalBackground = () => {
   return (
     <div
       className={cs(
         classes.EducationalBackground,
-        'padding-bottom-100 padding-top-100'
+        "padding-bottom-100 padding-top-100"
       )}
     >
       <div
-        className={cs(classes.EducationalBackgroundInner, 'container-default')}
+        className={cs(classes.EducationalBackgroundInner, "container-default")}
       >
-        <h1 className='title-block'>Educational background</h1>
+        <h1 className="title-block">Educational background</h1>
 
-        <div className={cs(classes.content, 'margin-top-64')}>
+        <div className={cs(classes.content, "margin-top-64")}>
           <div className={classes.educationCard}>
             <div>
               <h1 className={classes.educationDuration}>
@@ -23,19 +23,19 @@ const EducationalBackground = () => {
                 className={cs(
                   classes.educationTitle,
                   classes.educationDegree,
-                  'margin-bottom-16 text-center'
+                  "margin-bottom-16 text-center"
                 )}
               >
-                (Unfinished Bachelor's)
+                (Bachelor's)
               </h1>
             </div>
             <div className={classes.educationContent}>
               <h1
-                className={cs(classes.educationInstitution, 'margin-bottom-8')}
+                className={cs(classes.educationInstitution, "margin-bottom-8")}
               >
                 University of Rwanda
               </h1>
-              <h1 className={cs(classes.educationTitle, 'margin-bottom-16')}>
+              <h1 className={cs(classes.educationTitle, "margin-bottom-16")}>
                 Computer & Software engineering
               </h1>
               <p className={classes.educationDescription}>
