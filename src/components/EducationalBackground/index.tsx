@@ -17,7 +17,7 @@ const EducationalBackground = () => {
           <div className={classes.educationCard}>
             <div>
               <h1 className={classes.educationDuration}>
-                AUGUST 2016 - AUGUST 2028
+                AUGUST 2016 - AUGUST 2020
               </h1>
               <h1
                 className={cs(
