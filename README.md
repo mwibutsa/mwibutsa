@@ -4,7 +4,7 @@ Kigali, Rwanda KG 256 st, Kigali, Kigali City | +250787740316 | floribert.mwibut
 
 ## PROFESSIONAL SUMMARY
 
-With 5 years of experience building highly scalable, maintainable, and cross-platform web and mobile applications using Javascript, Typescript, Node.js, React, and React-native, I am a driven and enthusiastic professional.
+With more than 6 years of experience building highly scalable, maintainable, and cross-platform web and mobile applications using Javascript, Typescript, Node.js, React, and React-native, I am a driven and enthusiastic professional.
 
 My strong background in software development, attention to detail, and innovative mindset allow me to deliver exceptional results. Collaborating effectively with colleagues and stakeholders, I have a proven track record of building solutions that meet business objectives and exceed customer expectations.
 
