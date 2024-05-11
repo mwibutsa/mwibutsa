@@ -1,9 +1,10 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import "./button.scss";
 
 type ButtonProps = {
   onClick: () => void;
   className?: string;
+  children: ReactNode;
 };
 
 const Button: React.FC<ButtonProps> = ({
