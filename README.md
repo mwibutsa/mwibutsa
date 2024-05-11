@@ -27,17 +27,16 @@ My strong background in software development, attention to detail, and innovativ
 
 ## WORK HISTORY
 
-
 - ### APRIL 2023- PRESENT
 
   Full-stack developer | [Koin Network](https://www.koin.network) Remote
 
   - Developed and implemented key features of the NFT marketplace, including front-end components, backend APIs, and blockchain integration.
   - Collaborated effectively with teammates and stakeholders to contribute to the successful launch and ongoing operation of the platform.
-    
+
 - ### JULY 2022- MARCH 2023
 
-  Software developer | [MangoDev](https://mangodev.io) | Kigali, Rwanda
+  Software developer | [MangoDev](https://mangodev.io) | United States (Remote)
 
   - Built new web and mobile applications using Nodejs, React, and React-native
   - Deployed backend API built in Node.js/Express to AWS and Digital Ocean
@@ -64,7 +63,7 @@ My strong background in software development, attention to detail, and innovativ
 
 - ### JANUARY 2022- JULY 2022
 
-  Frontend developer | [CodeLand](https://www.codeland.it/) | Kigali, Rwanda
+  Frontend developer | [CodeLand](https://www.codeland.it/) | Italy (Remote)
 
   - Implement interactive UI components to be used within the AEM (Adobe experience Manager)
 
