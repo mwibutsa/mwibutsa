@@ -23,7 +23,7 @@ const PROJECTS = [
       "Ethereum",
       "Web3",
     ],
-    link: "https://2u.money",
+    link: "https://koinect.com",
   },
   {
     company: "Ossix technologies",
