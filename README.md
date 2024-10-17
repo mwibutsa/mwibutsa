@@ -1,141 +1,36 @@
-# [MWIBUTSA FLORIBERT](https://www.mwibutsa.com/)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Kigali, Rwanda KG 256 st, Kigali, Kigali City | +250787740316 | floribert.mwibutsa@gmail.com
+## Getting Started
 
-## PROFESSIONAL SUMMARY
+First, run the development server:
 
-With more than 6 years of experience building highly scalable, maintainable, and cross-platform web and mobile applications using Javascript, Typescript, Node.js, React, and React-native, I am a driven and enthusiastic professional.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-My strong background in software development, attention to detail, and innovative mindset allow me to deliver exceptional results. Collaborating effectively with colleagues and stakeholders, I have a proven track record of building solutions that meet business objectives and exceed customer expectations.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## SKILLS
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- JavaScript: `6 years`
-- React & Redux: `6 years`
-- React Native: `4 years`
-- Node.js: `6 years`
-- Typescript: `4 years`
-- Python: `3 years`
-- Django: `3 years`
-- User Experience design (UI/UX)
-- HTML/HTML5, CSS/CSS3, and SASS: `6 years`
-- Docker: `3 years`
-- AWS: `4years`
-- Cypress: `2 years `
-- GraphQL: `3 years` & Apollo: `2 years`
-- API integration: `6 years`
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## WORK HISTORY
+## Learn More
 
-- ### APRIL 2023- PRESENT
+To learn more about Next.js, take a look at the following resources:
 
-  Full-stack developer | [Koin Network](https://www.koin.network) Remote
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-  - Developed and implemented key features of the NFT marketplace, including front-end components, backend APIs, and blockchain integration.
-  - Collaborated effectively with teammates and stakeholders to contribute to the successful launch and ongoing operation of the platform.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- ### JULY 2022- MARCH 2023
+## Deploy on Vercel
 
-  Software developer | [MangoDev](https://mangodev.io) | United States (Remote)
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-  - Built new web and mobile applications using Nodejs, React, and React-native
-  - Deployed backend API built in Node.js/Express to AWS and Digital Ocean
-
-## WORK HISTORY
-
-- ### JANUARY 2022- JULY 2022
-
-  Senior Frontend developer | [CcHub](https://cchubnigeria.com/) | Kigali, Rwanda
-
-  - Coded pixel-perfect mobile applications from Figma using React native and Apollo GraphQL
-
-  - Coded frontend applications with React and Typescript
-
-  - Worked with the HR team to find new experienced developers through interviews and live coding assessments.
-
-  - Inspired CcHub community members to start a career in programming through community events, by sharing my experience and some though in regards to a beginner's programming road map.
-
-  - Advised a number of startups and suggested changes that could help them achieve their companies' growth, through the product advisory program of CcHub.
-
-  - Single-handedly managed more than 5 frontend projects per sprint including web and mobile applications.
-
-  - Collaborated with stakeholders from different departments to help the company maintain its partnership with other companies.
-
-- ### JANUARY 2022- JULY 2022
-
-  Frontend developer | [CodeLand](https://www.codeland.it/) | Italy (Remote)
-
-  - Implement interactive UI components to be used within the AEM (Adobe experience Manager)
-
-  - Identify and correct front-end bugs.
-
-  - Work closely with the back-end and design team to develop highly scalable applications.
-
-- ### AUGUST 2020- JANUARY 2022
-
-  Software engineer | [Ossix Technologies](ossix.technology) | Kigali, Rwanda.
-
-  - Accelerated the development of 2u & m2u finance applications for Ossix technologies.
-
-  - Stabilised core functionalities of 2u & m2u web applications by tracking, recording and fixing bugs.
-
-  - Worked closely with the design team to transform high fidelity UI components into user interactive web pages using ReactJs, Next.js and Typescript.
-
-  - Researched and shared efficient and reliable techniques to optimise and implement responsive images across different platforms.
-
-  - Wrote end to end test to ensure successful interaction between the front-end and the supporting backend infrastructure.
-
-  - Led the team as a scrum master through different sprints to ensure increased productivity and best software development practices.
-
-- ### JULY 2019-NOVEMBER 2019
-
-  Backend web developer | LifeStore pharmacy | Lagos, Nigeria (remote)
-
-  > Maintained web application database and integration tests during development.
-  > Built web applications as a digital and scalable solution to their inventory management.
-
-- ### AUGUST 2018-APRIL 2020
-
-  Software Engineer | [Andela](andela.com) | Kigali, Rwanda.
-
-  - Built reliable web and mobile based application solutions for Andela partners.
-
-  - Maintained and collaborated on the PharmIQ web application for Andela partners.
-
-  - Trained, led and onboarded more than 10 new employee prospects about Andela values and as a technical Learning facilitator assistant.
-
-  - Wrote unit and integration tests for different web applications with Jest,Supertest, Mocha and chai.
-
-  - Volunteered to participate under numerous marketing strategies of Andela.
-
-- ### JANUARY 2017-AUGUST 2018
-
-  Fullstack developer | [QuickTech Rwanda](https://qt.rw/) | Kigali, Rwanda
-
-  - Coded web applications to digitalise customer business operations using PHP and Javascript.
-
-  - Worked closely with the design team to implement designed mockups with HTML, CSS and Javascript.
-
-## EDUCATION
-
-- ### SEPTEMBER 2016 - 2020
-
-  - Bachelor's degree in computer and software engineering
-    The University of Rwanda.
-
-## REFERENCES.
-
-> Available upon request
-
-## CERTIFICATIONS
-
-- User experience design essentials
-- Frontend application development with React
-- Test-driven development
-
-## OLINE PROFILES
-
-- [LinkedIn](https://www.linkedin.com/in/mwibutsa/)
-- [Github](https://github.com/mwibutsa)
-- [Stack Overflow](https://stackoverflow.com/users/11440526/mwibutsa-floribert)
-- [CV File](https://docs.google.com/document/d/1sSjm0xRdvn_36mjuSyo1DIN2B5uHLwxetJVB_jDZw0s/edit?usp=sharing)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
