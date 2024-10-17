@@ -1,6 +1,8 @@
 import type { Config } from "tailwindcss";
+import primaryColors from "./colors";
 
 const config: Config = {
+primaryColors,
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,8 +11,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: primaryColors['mBg'],
         foreground: "var(--foreground)",
+        primary: primaryColors['mGreen'],
+        secondary: primaryColors['mGray']
       },
     },
   },
